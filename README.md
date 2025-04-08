@@ -16,7 +16,7 @@
 <sup>\*</sup> Equal Contributions. <sup>✉</sup> Corresponding Author. 
 
 -------------------------------------------
-![introduction](assets/ppline_new.png)
+![introduction](figs/framework.png)
 
 ## 📰News
 
