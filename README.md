@@ -61,7 +61,7 @@ HRMedSeg
 We provide all pre-trained models here.
 | Teacher Model | Pretraining Data | Checkpoints |
 |-----|------|-----|
-|SAM| 0.1% SA-1B | [Link](https://nottinghamedu1-my.sharepoint.com/:f:/r/personal/scxqx1_nottingham_edu_cn/Documents/ESP-MedSAM?csf=1&web=1&e=GDtIv3)|
+|SAM| 0.1% SA-1B | [Link](https://github.com/xq141839/HRMedSeg/tree/main/pretrain_weights)|
 |SAM2| 0.1% SA-1B |TBA|
 |SAM| 1% SA-1B |TBA|
 |SAM2| 1% SA-1B |TBA|
