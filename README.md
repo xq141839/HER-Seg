@@ -69,5 +69,13 @@ We provide all pre-trained models here.
 ## 📜Citation
 If you find this work helpful for your project,please consider citing the following paper:
 ```
-
+@misc{xu2025hrmedsegunlockinghighresolutionmedical,
+      title={HRMedSeg: Unlocking High-resolution Medical Image segmentation via Memory-efficient Attention Modeling}, 
+      author={Qing Xu and Zhenye Lou and Chenxin Li and Xiangjian He and Rong Qu and Tesema Fiseha Berhanu and Yi Wang and Wenting Duan and Zhen Chen},
+      year={2025},
+      eprint={2504.06205},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.06205}, 
+}
 ```
