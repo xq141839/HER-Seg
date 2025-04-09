@@ -10,6 +10,7 @@ from albumentations.pytorch.transforms import ToTensor
 import albumentations as A
 from PIL import Image
 
+
 class BinaryLoader(Dataset):
         def __init__(self, data_name, jsfiles, transforms, pixel_mean=[123.675, 116.280, 103.530], pixel_std=[58.395, 57.12, 57.375]):
             if data_name == "mask_1024":
