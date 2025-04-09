@@ -20,8 +20,8 @@
 
 ## 📰News
 
-- **[2025.04.05]** The pre-print paper is now available! Fine-tuning the model with 1024×1024 image resolution and 16 batch sizes only needs **9.4GB** GPU memory (~1 GTX1080ti or 1 RTX3060), 4 batch sizes only needs **2.6GB** GPU memory (~1 GTX1060 3G). We hope everyone can enjoy our model.
-- **[2025.04.05]** The checkpoint pre-trained on 0.1% SA-1B dataset is now available!  
+- **[2025.04.08]** The pre-print paper is now available! Fine-tuning the model with 1024×1024 image resolution and 16 batch sizes only needs **9.4GB** GPU memory (~1 GTX1080ti or 1 RTX3060), 4 batch sizes only needs **2.6GB** GPU memory (~1 GTX1060 3G). We hope everyone can enjoy our model.
+- **[2025.04.08]** The checkpoint pre-trained on 0.1% SA-1B dataset is now available!  
 
 ## 🛠Setup
 
