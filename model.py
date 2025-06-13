@@ -135,7 +135,7 @@ class PFD(nn.Module):
 
         self.img_size = img_size
 
-        self.image_encoder = PFD(embed_dim=dim, img_size=img_size)        
+        self.image_encoder = LGViT(embed_dim=dim, img_size=img_size)        
         
         self.neck = nn.Sequential(
             nn.Conv2d(
