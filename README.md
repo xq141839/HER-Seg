@@ -26,7 +26,7 @@
 ## 🛠Setup
 
 ```bash
-git clone https://github.com/xq141839/ESP-MedSAM.git
+git clone https://github.com/xq141839/HRMedSeg.git
 cd HRMedSeg
 conda create -f HRMedSeg.yaml
 ```
