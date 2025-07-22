@@ -1,5 +1,4 @@
-# *HRMedSeg*: Unlocking High-resolution Medical Image segmentation via Memory-efficient Attention Modeling
-
+# *HER-Seg*: Holistically Efficient Segmentation for High-Resolution Medical Images
 <p align="center">
   <img src="figs/logo.png" alt="" width="150" height="150">
 </p>
@@ -9,11 +8,10 @@
 
 ### [ArXiv Paper](https://arxiv.org/abs/2504.06205) 
 
-[Qing Xu](https://scholar.google.com/citations?user=IzA-Ij8AAAAJ&hl=en&authuser=1)<sup>1*</sup> [Zhenye Lou]()<sup>2*</sup> [Chenxin Li](https://xggnet.github.io/)<sup>3*</sup> [Xiangjian He](https://scholar.google.com/citations?user=BiBXGfIAAAAJ&hl=en&authuser=1)<sup>1✉</sup> [Rong Qu](https://scholar.google.com/citations?user=ErszCRMAAAAJ&hl=en&authuser=1)<sup>4</sup> [Tesema Fiseha Berhanu](https://scholar.google.com/citations?hl=en&authuser=1&user=XoL3ZMAAAAAJ)<sup>1</sup> [Yi Wang](https://scholar.google.com/citations?hl=en&user=C1BnRlMAAAAJ&view_op=list_works&sortby=pubdate)<sup>5</sup> [Wenting Duan](https://scholar.google.com/citations?user=H9C0tX0AAAAJ&hl=en&authuser=1)<sup>6</sup> [Zhen Chen](https://franciszchen.github.io/)<sup>7</sup>
+[Qing Xu](https://scholar.google.com/citations?user=IzA-Ij8AAAAJ&hl=en&authuser=1)<sup>1</sup> [Zhenye Lou]()<sup>2</sup> [Chenxin Li](https://xggnet.github.io/)<sup>3</sup> [Yue Li]()<sup>1,4</sup> [Xiangjian He](https://scholar.google.com/citations?user=BiBXGfIAAAAJ&hl=en&authuser=1)<sup>1✉</sup> [Tesema Fiseha Berhanu](https://scholar.google.com/citations?hl=en&authuser=1&user=XoL3ZMAAAAAJ)<sup>1</sup> [Rong Qu](https://scholar.google.com/citations?user=ErszCRMAAAAJ&hl=en&authuser=1)<sup>4</sup> [Wenting Duan](https://scholar.google.com/citations?user=H9C0tX0AAAAJ&hl=en&authuser=1)<sup>5</sup> [Zhen Chen](https://franciszchen.github.io/)<sup>6</sup>
 
-<sup>1</sup>UNNC &emsp; <sup>2</sup>Sichuan University &emsp; <sup>3</sup>CUHK &emsp; <sup>4</sup>University of Nottingham &emsp; <sup>5</sup>Dalian University of Technology &emsp; <sup>6</sup>Univeristy of Lincoln &emsp; <sup>7</sup>HKISI, CAS &emsp;
+<sup>1</sup>UNNC &emsp; <sup>2</sup>Sichuan University &emsp; <sup>3</sup>CUHK &emsp; <sup>4</sup>University of Nottingham &emsp; <sup>5</sup>Univeristy of Lincoln &emsp; <sup>6</sup>HKISI, CAS &emsp;
 
-<sup>\*</sup> Equal Contributions. <sup>✉</sup> Corresponding Author. 
 
 -------------------------------------------
 ![introduction](figs/framework.png)
@@ -26,9 +24,9 @@
 ## 🛠Setup
 
 ```bash
-git clone https://github.com/xq141839/HRMedSeg.git
-cd HRMedSeg
-conda create -f HRMedSeg.yaml
+git clone https://github.com/xq141839/HER-Seg.git
+cd HER-Seg
+conda create -f HER-Seg.yaml
 ```
 
 **Key requirements**: Cuda 11.8+, PyTorch 2.0+
@@ -45,7 +43,7 @@ conda create -f HRMedSeg.yaml
 
 The data structure is as follows.
 ```
-HRMedSeg
+HER-Seg
 ├── datasets
 │   ├── image_1024
 │     ├── ISIC_0000000.png
@@ -61,7 +59,7 @@ HRMedSeg
 We provide all pre-trained models here.
 | Teacher Model | Pretraining Data | Checkpoints |
 |-----|------|-----|
-|SAM| 0.1% SA-1B | [Link](https://github.com/xq141839/HRMedSeg/tree/main/pretrain_weights)|
+|SAM| 0.1% SA-1B | [Link](https://github.com/xq141839/HER-Seg/tree/main/pretrain_weights)|
 |SAM2| 0.1% SA-1B |TBA|
 |SAM| 1% SA-1B |TBA|
 |SAM2| 1% SA-1B |TBA|
